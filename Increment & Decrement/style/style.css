@@ -1,0 +1,25 @@
+.container{
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid black;
+  padding: 20px;
+  background-color: blueviolet;
+}
+
+#counter{
+  font-size: 24px;
+  color: blanchedalmond;
+}
+
+button{
+  font-size: 30px;
+  padding: 15px 25px;
+  margin: 5px;
+  background-color: aqua;
+}
+
+button:disabled{
+  opacity: 0.5;
+  cursor: not-allowed;
+}
