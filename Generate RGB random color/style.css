@@ -1,0 +1,38 @@
+body{
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+
+#colorBox{
+  width: 300px;
+  height: 300px;
+  border: 4px solid black;
+  margin: 0 auto;
+
+}
+
+#copybtn{
+  background: rgb(85, 186, 85);
+  color:white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  border:1px solid black;
+}
+
+#changecolor{
+  border: 2px solid black;
+  background: rgb(144, 229, 144)
+}
+
+#copybtn:hover{
+  background-color: rgb(46, 154, 46);
+
+}
+
+
+#colorCode{
+  font-size: 20px;
+}
