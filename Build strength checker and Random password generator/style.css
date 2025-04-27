@@ -1,0 +1,34 @@
+
+body{
+  font-family: Arial,sans-serif;
+  text-align: center;
+
+}
+.container{
+  width: 700px;
+  margin: 0 auto;
+  border: 5px solid green;
+  height: 50vh;
+  background-color: cornsilk;
+
+}
+
+.passgenButton{
+  background-color: green;
+  color:white;
+  padding: 6px 25px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#password{
+  margin: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+
+}
+
+#strength{
+  margin: 10px;
+  font-size: 1.2em;
+}
