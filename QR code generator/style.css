@@ -1,0 +1,43 @@
+
+body{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 50px;
+  background-color: #000;
+}
+
+.container{
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+
+}
+
+#qrText{
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid grey;
+
+
+}
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button{
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+
+}
+
+button:hover{
+   background-color: #174a81;
+}
