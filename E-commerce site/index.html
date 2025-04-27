@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>E-commerce Site</title>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Mini E-commerce Site</h1>
+    <div class="products">
+      <div class="product">
+        <h2>iphone 14 </h2>
+        <p> $999</p>
+        <button class="add-to-cart" data-name="iphone 14" data-price="999">Add to Cart</button>
+      </div>
+
+        <div class="product">
+          <h2>Galaxy S23 </h2>
+          <p> $876</p>
+          <button class="add-to-cart" data-name="Galaxy S23" data-price="876">Add to Cart</button>
+        </div>
+
+          <div class="product">
+            <h2>Google Pixel 7 </h2>
+            <p> $567</p>
+            <button class="add-to-cart" data-name="Google Pixel 7" data-price="567">Add to Cart</button>
+          </div>
+
+    </div>
+
+      <h2> Shopping Cart</h2>
+
+      <div class="cart">
+          <ul id="cart-items">
+
+          </ul>
+          <P>Total: $ <span id="total-price">
+            0
+          </span></P>
+          <button id="buy-now">Buy Now</button>
+      </div>
+
+  </div>
+<script src="script.js"></script>
+
+
+</body>
+</html>
